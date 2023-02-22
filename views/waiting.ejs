@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .waiting-body {
+            font-size: 1.6rem;
+            overflow-x: hidden;
+            z-index: 5;
+            transition: all 0.5s ease;
+            background-color: #01262f;
+        }
+        
+        .waiting-container {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 45%;
+            top: 45%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+        
+        .waiting-heading {
+            font-size: 100px;
+        }
+        
+        .waiting-a {
+            font-size: 50px;
+            align-items: center;
+            color: var(--clr-primary);
+        }
+    </style>
+</head>
+
+<body class="waiting-body">
+    <div class="waiting-container">
+        <h1 class="waiting-heading">
+            Coming Soon!!!
+        </h1>
+        <a class="waiting-a" href="/">Go Back</a>
+    </div>
+</body>
+
+</html>
